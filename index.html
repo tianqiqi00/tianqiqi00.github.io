@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=#58b77a>
-  <title>TestPage</title>
+  <title>学习记录</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
@@ -69,8 +69,8 @@
   <div class="featured">
     <div class="avatar"><a href="/"><img src="/images/avatar.min.jpeg"></a></div>
     <span>John Doe</span>
-    <h1>TestPage</h1>
-    <span>——TestPage</span>
+    <h1>学习记录</h1>
+    <span>——学习记录</span>
     
   </div>
   </div>
@@ -79,6 +79,27 @@
 <div id="lx-main-content">
   <div class="lx-post">
 
+  <div class="lx-entry padding">
+    <div>
+      <h2 class="title"><a href="/2021/08/20/jira%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">jira插件开发</a></h2>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2021-08-20</span>
+      <p><h3 id="jira插件开发"><a href="#jira插件开发" class="headerlink" title="jira插件开发"></a>jira插件开发</h3><p><a target="_blank" rel="noopener" href="https://developer.atlassian.com/server/framework/atlassian-sdk/">环境安装教程</a></p>
+<h4 id="基本流程"><a href="#基本流程" class="headerlink" title="基本流程"></a>基本流程</h4><ul>
+<li><p>1.安装java环境</p>
+</li>
+<li><p>2.正确配置环境变量<br>1.which java<br>  确认打印出的地址与配置的地址是否一致 ~~ 不一致的话建议检查环境变量的配置<br>终极方案 –&gt;  再三修改也改不正确<br>  安装sdkman （java版本管理工具 <a target="_blank" rel="noopener" href="https://sdkman.io/">https://sdkman.io/</a> ） 输入指令即可帮你配置环境<br>2.安装maven –&gt; <a target="_blank" rel="noopener" href="https://blog.csdn.net/zcyzsy/article/details/81210058">https://blog.csdn.net/zcyzsy/article/details/81210058</a><br>3.校验</p>
+</li>
+<li><p>3.根据流程安装插件的SDK<br><a target="_blank" rel="noopener" href="https://developer.atlassian.com/server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system/">https://developer.atlassian.com/server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system/</a><br>按照第一种安装就可以<br><img src="/images/wechat.jpeg"></p>
+</li>
+<li><p>4.创建插件<br>atlas-create-jira-plugin （生成过程比较长建议等待一会）<br>启动jira项目<br>  a. atlas-run <strong>记得要切换到正确的目录里否则会报错</strong><br>  b. 报错  </p>
+  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;Perhaps you are running on a JRE rather than a JDK?&quot;</span></span><br></pre></td></tr></table></figure>
+<p>  别查了，环境肯定没配正确<br>  c. 其他异常报错<br>  建议重新atlas-create-jira-plugin一次，我用的是vscode去创建的项目，中途切换过IDE和eclipse，报了各种语法错误，修复了报错之后还有报错</p>
+</li>
+</ul>
+</p>
+      <div class="post-button"><a class="btn" href="/2021/08/20/jira%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>阅读更多</a></div>
+    </div>
+  </div>
   <div class="lx-entry padding">
     <div>
       <h2 class="title"><a href="/2021/08/19/markDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%951/">markDown基本语法1</a></h2>
@@ -143,7 +164,7 @@
 </tbody></table>
 <h3 id="八、流程图"><a href="#八、流程图" class="headerlink" title="八、流程图"></a>八、流程图</h3><p><code>flow st=&gt;start: 开始 op=&gt;operation: My Operation cond=&gt;condition: Yes or No? e=&gt;end st-&gt;op-&gt;cond cond(yes)-&gt;e cond(no)-&gt;op &amp;</code></p>
 </p>
-      <div class="post-button"><a class="btn" href="/2021/08/19/markDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%951/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
+      <div class="post-button"><a class="btn" href="/2021/08/19/markDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%951/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>阅读更多</a></div>
     </div>
   </div>
   <div class="lx-entry padding">
@@ -151,7 +172,7 @@
       <h2 class="title"><a href="/2021/08/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">测试文章</a></h2>
       <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2021-08-19</span>
       <p><h3 id="啦啦啦啦"><a href="#啦啦啦啦" class="headerlink" title="啦啦啦啦"></a>啦啦啦啦</h3></p>
-      <div class="post-button"><a class="btn" href="/2021/08/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
+      <div class="post-button"><a class="btn" href="/2021/08/19/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>阅读更多</a></div>
     </div>
   </div>
   <div class="lx-entry padding">
@@ -176,7 +197,7 @@
 
 <p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p>
 </p>
-      <div class="post-button"><a class="btn" href="/2021/08/13/hello-world/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
+      <div class="post-button"><a class="btn" href="/2021/08/13/hello-world/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>阅读更多</a></div>
     </div>
   </div>
 
@@ -185,7 +206,7 @@
 
 <footer>
   <div>
-  Copyright &copy; 2021.<a href="/">TestPage</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
+  Copyright &copy; 2021.<a href="/">学习记录</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
   </div>
 </footer>
 
@@ -216,18 +237,18 @@
   </div>
   <nav class="menu-container">
   <ul class="menu-items">
-    <li><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
     
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-bookmark fa-fw"></i>Pages</span>
+      <i class="fa fa-bookmark fa-fw"></i>页面</span>
         <ul>
           <li><a href="/guestbook/">Guestbook</a></li>
         <li><a href="/about/">About</a></li>
         </ul>
     </li>
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>Friends</span>
+      <i class="fa fa-link fa-fw"></i>友链</span>
         <ul>
           <li> <a href="https://lx.js.org" target="_blank">Theme-Lx</a></li>
         </ul>
